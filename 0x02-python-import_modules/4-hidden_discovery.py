@@ -7,4 +7,4 @@ if __name__ == "__main__":
     strings = dir(hidden_4)
     for i in strings:
         if i[:2] != "__":
-            print(name)
+            print(i)

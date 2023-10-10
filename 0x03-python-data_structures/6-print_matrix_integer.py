@@ -2,6 +2,7 @@
 def print_matrix_integer(matrix=[[]]):
     if matrix:
         for i in matrix:
-            print('\t'.join(map(str, i)))
+            for n in i
+                print("{:d}".format(n), end=" " if n != i[-1] else "")
     else:
         print("")

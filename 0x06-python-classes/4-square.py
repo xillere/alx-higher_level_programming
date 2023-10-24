@@ -13,6 +13,7 @@ class Square:
     def size(self):
         """retrieves size"""
         return (self.__size)
+
     @size.setter
     def size(self, value):
         """initializing a square

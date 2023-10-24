@@ -13,6 +13,7 @@ class Square:
     def size(self):
         """retrieves size"""
         return (self.__size)
+
     @size.setter
     def size(self, value):
         """initializing a square
@@ -30,6 +31,7 @@ class Square:
     def area(self):
         """returns area"""
         return ((self.__size)**2)
+
     def print(self):
         """print stuff"""
         if (self.__size != 0):

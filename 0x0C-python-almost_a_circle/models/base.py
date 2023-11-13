@@ -82,7 +82,7 @@ class Base:
         fname = cls.__name__ + ".json"
         try:
             with open(fname, "r") as f:
-            jstr = f.read()
+                jstr = f.read()
         except FileNotFoundError:
             return []
         oblist = cls.from_json_string(jstr)
